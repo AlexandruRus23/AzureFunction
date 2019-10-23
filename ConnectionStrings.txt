@@ -1,1 +1,0 @@
-DefaultEndpointsProtocol=https;AccountName=datcjoi800;AccountKey=STLoT5Ps1Stqju+HepVRNB04gN4XtXmTJsJ68AmgilPE4EojJnXpO1H+kthI6IuiFAWuyKBfm5MYiepA6GD1Qg==;EndpointSuffix=core.windows.net

@@ -9,7 +9,7 @@ namespace AzureFunction
 {
     public static class TableStorageAzureFunction
     {
-        public static string ConnectionString = "DefaultEndpointsProtocol=https;AccountName=datcjoi800;AccountKey=STLoT5Ps1Stqju+HepVRNB04gN4XtXmTJsJ68AmgilPE4EojJnXpO1H+kthI6IuiFAWuyKBfm5MYiepA6GD1Qg==;EndpointSuffix=core.windows.net";
+        public static string ConnectionString = "<storage account connection string>";
         public static string My_Name = "AlexandruRus";
 
         [FunctionName("TimerTriggerCSharp")]
@@ -23,7 +23,7 @@ namespace AzureFunction
             SeedData(bankTransactionRepository);
 
             // Generate BankTransactionStatistics from all senders by aggregating the total sum of their transactions
-            
+
         }
 
         private static void SeedData(TableStorageService<BankTransaction> tableStorageService)
