@@ -1,0 +1,11 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "DefaultEndpointsProtocol=https;AccountName=datcjoi800;AccountKey=STLoT5Ps1Stqju+HepVRNB04gN4XtXmTJsJ68AmgilPE4EojJnXpO1H+kthI6IuiFAWuyKBfm5MYiepA6GD1Qg==;EndpointSuffix=core.windows.net",
+    "FUNCTIONS_WORKER_RUNTIME": "dotnet"
+  },
+  "extensionBundle": {
+        "id": "Microsoft.Azure.Functions.ExtensionBundle",
+        "version": "[1.*, 2.0.0)"
+    }
+}
